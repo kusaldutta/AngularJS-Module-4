@@ -7,7 +7,7 @@ angular.module('MenuApp',['ui.router'])
 
 RoutesConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
 function RoutesConfig($stateProvider, $urlRouterProvider){
-  $urlRouterProvider.otherwise('/home');
+  $urlRouterProvider.otherwise('/');
   //alert("Inside Routes");
   $stateProvider
         .state('home',{
